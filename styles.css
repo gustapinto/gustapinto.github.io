@@ -2,6 +2,7 @@ body {
   margin-top: 5%;
   margin-left: 15%;
   margin-right: 15%;
+  text-align: justify;
 }
 
 a {
@@ -15,9 +16,13 @@ a {
   color: #808080;
 }
 
-.ident-block {
-  padding-left: 7%;
-  padding-right: 7%;
+.content {
+  margin-bottom: 3rem;
+}
+
+.ident {
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 @media (max-width: 480px) {
