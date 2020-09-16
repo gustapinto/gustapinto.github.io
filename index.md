@@ -20,7 +20,7 @@ autoconhecimento, das coisas simples da vida e da estética mínima e atemporal.
 
 
 ## Experiência profissional
-Durante minha breve vida profissional tive a oporyunidade de conviver e
+Durante minha breve vida profissional tive a oportunidade de conviver e
 experimentar uma determinada gama de profissões formais e informais, dentre as
 quais:
 
