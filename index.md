@@ -79,7 +79,9 @@ também possuo conhecimento em outras línguas estrangeira, como:
 <div class="spacer"></div>
 
 ## Contate-me
-Quer entrar em contato comigo, falar que não gostou desse site, marcar um café,
-jogar um papo fora ou me convidar para um pedal? Se a resposta para qualquer
-uma das perguntas for sim então me mande um e-mail para ***ghp2201@gmail.com***,
-assim que sobrar um tempinho eu ficarei mais do que feliz em te responder.
+Quer entrar em contato comigo? Falar que não gostou desse site? Marcar um café e
+jogar um papo fora? Ou que tal me convidar para um pedal?
+
+Se a resposta para qualquer uma dessas perguntas for sim então me mande um e-mail
+para ***ghp2201@gmail.com***, assim que sobrar um tempinho eu ficarei mais do
+que feliz em te responder.
