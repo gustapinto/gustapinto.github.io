@@ -82,6 +82,6 @@ também possuo conhecimento em outras línguas estrangeira, como:
 Quer entrar em contato comigo? Falar que não gostou desse site? Marcar um café e
 jogar um papo fora? Ou que tal me convidar para um pedal?
 
-Se a resposta para qualquer uma dessas perguntas for sim então me mande um e-mail
+Se a resposta para qualquer uma dessas perguntas for sim então mande um e-mail
 para ***ghp2201@gmail.com***, assim que sobrar um tempinho eu ficarei mais do
 que feliz em te responder.
