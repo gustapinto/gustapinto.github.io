@@ -6,11 +6,6 @@ body {
   text-align: justify;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
 h3,
 h4,
 h5,
@@ -22,10 +17,18 @@ ul {
   list-style-type: none;
 }
 
+.spacer {
+  height: 1rem;
+}
+
 .fa-external-link-alt {
   font-size: 0.8rem;
   vertical-align: 40%;
   color: #808080;
+}
+
+.fa-external-link-alt:hover {
+  color: #0094ff;
 }
 
 @media (max-width: 480px) {
@@ -42,6 +45,6 @@ ul {
   .fa-external-link-alt {
     font-size: 1rem;
     vertical-align: 20%;
-    color: #808080;
+    color: #0094ff;
   }
 }
