@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }}</title>
 
     {% include tags.html %}
-    {% include analytics.html %}
   </head>
   <body>
     <h1>{{ page.content_title }}</h1>
+
     {% if page.content_subtitle %}
       <h4>{{ page.content_subtitle }}</h4>
     {% endif %}
+
+    <h2 class="icons-container">
+      <a href="https://github.com/ghp2201" target="_blank">
+        <i class="fab fa-github icons"></i>
+      </a>
+    </h2>
+
     <hr>
 
     <section>
