@@ -1,2 +1,56 @@
 ---
 ---
+
+// Variables
+$secondary: #2e2e2e
+$primary: #f6d428
+
+$inclination: 2deg
+
+// Overrides
+body
+  margin: 0
+  font-family: 'Roboto', sans-serif
+
+// Utility styles
+.w-fluid
+  width: 100%
+  max-width: 100%
+
+.bg-primary
+  background-color: $primary
+
+.bg-secondary
+  background-color: $secondary
+
+.txt-secondary
+  color: $secondary
+
+.txt-bold
+  font-weight: bold
+
+.dg-negative
+  transform: skewY(-$inclination)
+
+.dg-positive
+  transform: skewY(-$inclination)
+
+.dg-left
+  transform-origin: left
+
+.dg-right
+  transform-origin: right
+
+// Components
+.header
+  padding-top: 0.5em
+  padding-left: 0.5em
+  padding-right: 0.5em
+  font-size: 4rem
+
+@media (max-width: 768px)
+  .header
+    padding-top: 0.5em
+    padding-left: 0.25em
+    padding-right: 0.25em
+    font-size: 2.5rem
