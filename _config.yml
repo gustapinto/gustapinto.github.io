@@ -1,5 +1,8 @@
-title: Gustavo H. Pinto
 author: Gustavo Henrique Pinto
+title: Gustavo H. Pinto
 
-layout: default
-baseurl: ""
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
