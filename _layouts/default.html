@@ -16,6 +16,12 @@
 <body class="bg-secondary">
   {% include header.html %}
 
-  {{ content }}
+  <section id="content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
+
+  {% include footer.html %}
 </body>
 </html>

@@ -1,56 +1,109 @@
 ---
 ---
 
-// Variables
-$secondary: #2e2e2e
-$primary: #f6d428
-
+$breakpoint-small: 768px
+$color-primary: #f6d428
+$color-secondary: #2e2e2e
+$fnt-extra-large: 4rem
+$fnt-large: 2.5rem
+$fnt-medium: 1.5rem
 $inclination: 2deg
+$m-large: 5em
+$m-medium: 2em
+$pd-extra-small: 0.25em
+$pd-medium: 1em
+$pd-small: 0.5em
 
-// Overrides
 body
-  margin: 0
+  background-color: $color-secondary
+  color: #fff
   font-family: 'Roboto', sans-serif
+  margin: 0
 
-// Utility styles
-.w-fluid
-  width: 100%
-  max-width: 100%
+.card
+  @extend .dg-positive
+  background-color: #fff
+  color: #000
+  padding: $pd-medium
 
-.bg-primary
-  background-color: $primary
+.card-openning
+  @extend .card
+  width: 35vw
+  margin: auto
 
-.bg-secondary
-  background-color: $secondary
+.container
+  margin-bottom: $m-large
+  margin-left: auto
+  margin-right: auto
+  margin-top: $m-large
+  width: 65vw
 
-.txt-secondary
-  color: $secondary
-
-.txt-bold
-  font-weight: bold
+.content
+  margin-top: $m-large
 
 .dg-negative
+  transform-origin: left
   transform: skewY(-$inclination)
 
 .dg-positive
-  transform: skewY(-$inclination)
-
-.dg-left
-  transform-origin: left
-
-.dg-right
   transform-origin: right
+  transform: skewY($inclination)
 
-// Components
+.footer
+  background-color: $color-primary
+  color: $color-secondary
+
+  .footer-diagonal
+    @extend .dg-negative
+    @extend .w-fluid
+    background-color: $color-primary
+    font-size: $fnt-medium
+    padding-bottom: $pd-medium
+    padding-left: $pd-small
+    padding-right: $pd-small
+    text-align: right
+
+  .footer-title
+    color: $color-secondary
+    font-weight: bold
+    margin: 0
+
+.grid
+  display: grid
+  grid-template-columns: 50% 50%
+  align-content: center
+
+.grid-item
+  align-self: center
+
 .header
-  padding-top: 0.5em
-  padding-left: 0.5em
-  padding-right: 0.5em
-  font-size: 4rem
+  @extend .dg-negative
+  @extend .w-fluid
+  background-color: $color-primary
+  color: $color-secondary
+  font-size: $fnt-extra-large
+  font-weight: bold
+  padding-left: $pd-small
+  padding-right: $pd-small
+  padding-top: $pd-small
 
-@media (max-width: 768px)
+.w-fluid
+  max-width: 100%
+  width: auto
+
+@media (max-width: $breakpoint-small)
+  .card-openning
+    width: 70vw
+
+  .container
+    margin-bottom: $m-medium
+    margin-top: $m-medium
+    width: 90vw
+
+  .grid
+    grid-template-columns: auto
+
   .header
-    padding-top: 0.5em
-    padding-left: 0.25em
-    padding-right: 0.25em
-    font-size: 2.5rem
+    font-size: $fnt-large
+    padding-left: $pd-extra-small
+    padding-right: $pd-extra-small
