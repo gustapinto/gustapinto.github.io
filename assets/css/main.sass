@@ -10,6 +10,7 @@ $fnt-medium: 1.5rem
 $inclination: 2deg
 $m-large: 5em
 $m-medium: 2em
+$m-small: 0.75em
 $pd-extra-small: 0.25em
 $pd-medium: 1em
 $pd-small: 0.5em
@@ -23,17 +24,34 @@ body
 .card
   @extend .dg-positive
   background-color: #fff
-  color: #000
+  color: $color-secondary
   padding: $pd-medium
 
-.card-text
-  @extend .dg-negative
-  display: block
+  .card-text
+    @extend .dg-negative
+    margin-top: $m-small
+    margin-bottom: $m-small
+    display: block
+
+  .card-title
+    @extend .dg-negative
+    font-size: $fnt-medium
+    font-weight: bold
+
+.card-clickable
+  @extend .card
+
+  &:hover
+    background-color: $color-secondary
+    box-shadow: 4px 6px $color-primary
+    color: #fff
+    cursor: pointer
 
 .card-openning
   @extend .card
   width: 35vw
   margin: auto
+  font-size: 1.25rem
 
 .container
   margin-bottom: $m-large
@@ -44,6 +62,9 @@ body
 
 .content
   margin-top: $m-large
+
+  .grid
+    margin-bottom: $m-medium
 
 .dg-negative
   transform-origin: left
@@ -106,6 +127,7 @@ body
     width: 90vw
 
   .grid
+    grid-gap: 0.1em
     grid-template-columns: auto
 
   .header
