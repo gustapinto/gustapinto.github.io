@@ -43,7 +43,7 @@ body
 
   &:hover
     background-color: $color-secondary
-    box-shadow: 4px 6px $color-primary
+    box-shadow: 5px 5px $color-primary
     color: #fff
     cursor: pointer
 
@@ -102,6 +102,25 @@ body
 .grid-item
   place-self: center
 
+.grid-icons
+  margin-top: $m-medium !important
+  display: grid
+  grid-template-columns: 33% 33% 33%
+  place-content: center
+  width: 35vw
+  margin: auto
+
+  a
+    color: #fff
+    place-self: center
+
+    svg
+      width: 3rem
+
+      &:hover
+        color: $color-secondary
+        filter: drop-shadow(5px 5px $color-primary)
+
 .header
   @extend .dg-negative
   @extend .w-fluid
@@ -129,6 +148,9 @@ body
   .grid
     grid-gap: 0.1em
     grid-template-columns: auto
+
+  .grid-icons
+    width: 90vw
 
   .header
     font-size: $fnt-large
