@@ -14,16 +14,26 @@ $m-small: 0.75em
 $pd-extra-small: 0.25em
 $pd-medium: 1em
 $pd-small: 0.5em
+$default-color: #fff
 
 body
   background-color: $color-secondary
-  color: #fff
+  color: $default-color
   font-family: 'Roboto', sans-serif
   margin: 0
 
+a
+  text-decoration: none
+  color: $default-color
+
+.clickable
+  &:hover
+    color: $color-primary
+    cursor: pointer
+
 .card
   @extend .dg-positive
-  background-color: #fff
+  background-color: $default-color
   color: $color-secondary
   padding: $pd-medium
 
@@ -44,14 +54,18 @@ body
   &:hover
     background-color: $color-secondary
     box-shadow: 5px 5px $color-primary
-    color: #fff
+    color: $default-color
     cursor: pointer
 
-.card-openning
+.card-quote
   @extend .card
   width: 35vw
   margin: auto
   font-size: 1.25rem
+
+  small
+    display: block
+    text-align: right
 
 .container
   margin-bottom: $m-large
@@ -110,16 +124,10 @@ body
   width: 35vw
   margin: auto
 
-  a
-    color: #fff
+  svg
+    @extend .clickable
     place-self: center
-
-    svg
-      width: 3rem
-
-      &:hover
-        color: $color-secondary
-        filter: drop-shadow(5px 5px $color-primary)
+    width: 3rem
 
 .header
   @extend .dg-negative
@@ -136,8 +144,20 @@ body
   max-width: 100%
   width: auto
 
+.topic
+  .topic-title
+    font-size: 1.15rem
+    font-weight: bold
+    margin: 0
+
+  .topic-subtitle
+    margin: 0
+
+  .topic-text
+    margin-top: 0.75em
+
 @media (max-width: $breakpoint-small)
-  .card-openning
+  .card-quote
     width: 70vw
 
   .container
