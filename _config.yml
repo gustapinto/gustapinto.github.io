@@ -1,6 +1,8 @@
 author: Gustavo Henrique Pinto
 title: Gustavo H. Pinto
 
+baseurl: ''
+
 include:
   - _pages
 
