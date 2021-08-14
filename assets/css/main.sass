@@ -56,8 +56,13 @@ a
   &:hover
     background-color: $color-secondary
     box-shadow: 5px 5px $color-primary
-    color: $default-color
     cursor: pointer
+
+  &>a
+    color: $color-secondary
+
+    &:hover
+      color: $default-color
 
 .card-quote
   @extend .card
@@ -161,6 +166,9 @@ a
 
   .topic-text
     margin-top: 0.75em
+
+.block
+  display: block
 
 @media (max-width: $breakpoint-medium)
   .grid

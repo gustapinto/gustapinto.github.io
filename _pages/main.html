@@ -60,40 +60,13 @@ permalink: /
 
 <div>
   <div class="grid cards">
-    <div class="card-clickable" id="b3-notifier-card">
-      <h3 class="card-title">
-        B3 Notifier
-      </h3>
-      <span class="card-text">
-        Um simples serviço escrito em Python que consome APIs da bolsa de valores de São Paulo (B3) e envia e-mails a cada X minutos informando os valores atuais das ações cadastradas.
-      </span>
-    </div>
-
-    <div class="card-clickable" id="cptec-data-extractor-card">
-      <h3 class="card-title">
-        Extrator de dados CPTEC
-      </h3>
-      <span class="card-text">
-         Retornando as minhas raízes no ecosistema Laravel esse projeto é um extrator de dados construído em Lumen, que realiza a análise de mapas de calor disponibilizados pelo CPTEC.
-      </span>
-    </div>
-
-    <div class="card-clickable" id="blog-ao-card">
-      <h3 class="card-title">
-        Blog AO
-      </h3>
-      <span class="card-text">
-        O “herdeiro” do meu trabalho de TCC na ETEC, é um blog baseado em arquivos markdown construído em Django e com posts voltados as questões do meio ambiente.
-      </span>
-    </div>
-
-    <div class="card-clickable" id="jupyter-card">
-      <h3 class="card-title">
-        Jupyter Notebooks
-      </h3>
-      <span class="card-text">
-        Uma pequena coletânea de notebooks jupyter com demonstrações e testes de análises de dados, na maioria das vezes sobre assuntos aleatórios.
-      </span>
-    </div>
+    {% for project in site.data.projects %}
+      {% include components/card_clickable.html
+        id = project.id
+        title = project.title
+        text = project.text
+        link = project.link
+      %}
+    {% endfor %}
   </div>
 </div>
