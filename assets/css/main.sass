@@ -1,7 +1,9 @@
 ---
 ---
 
+$breakpoint-mobile: 576px
 $breakpoint-small: 768px
+$breakpoint-medium: 992px
 $color-primary: #f6d428
 $color-secondary: #2e2e2e
 $fnt-extra-large: 4rem
@@ -113,6 +115,10 @@ a
   align-content: center
   grid-gap: 1em
 
+  &.cards
+    margin-top: $m-large
+    grid-template-columns: 25% 25% 25% 25%
+
 .grid-item
   place-self: center
 
@@ -156,7 +162,18 @@ a
   .topic-text
     margin-top: 0.75em
 
+@media (max-width: $breakpoint-medium)
+  .grid
+    &.cards
+      grid-template-columns: 33% 33% 33%
+
+
 @media (max-width: $breakpoint-small)
+  .grid
+    &.cards
+      grid-template-columns: 50% 50%
+
+@media (max-width: $breakpoint-mobile)
   .card-quote
     width: 70vw
 
@@ -168,6 +185,9 @@ a
   .grid
     grid-gap: 0.1em
     grid-template-columns: auto
+
+    &.cards
+      grid-template-columns: auto
 
   .grid-icons
     width: 90vw
