@@ -53,16 +53,16 @@ a
 .card-clickable
   @extend .card
 
+  a
+    color: $color-secondary
+
   &:hover
     background-color: $color-secondary
     box-shadow: 5px 5px $color-primary
     cursor: pointer
 
-  &>a
-    color: $color-secondary
-
-    &:hover
-      color: $default-color
+    a
+      color: $default-color !important
 
 .card-quote
   @extend .card
@@ -117,7 +117,7 @@ a
 .grid
   display: grid
   grid-template-columns: 50% 50%
-  align-content: center
+  place-items: center
   grid-gap: 1em
 
   &.cards
@@ -131,14 +131,14 @@ a
   margin-top: $m-medium !important
   display: grid
   grid-template-columns: 33% 33% 33%
-  place-content: center
+  place-items: center
   width: 35vw
   margin: auto
 
   svg
     @extend .clickable
-    place-self: center
     width: 3rem
+
 
 .header
   @extend .dg-negative
@@ -158,8 +158,10 @@ a
 .topic
   .topic-title
     font-size: 1.15rem
-    font-weight: bold
     margin: 0
+
+    a
+      @extend .clickable
 
   .topic-subtitle
     margin: 0
