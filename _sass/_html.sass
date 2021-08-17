@@ -1,0 +1,49 @@
+body
+  background-color: $color-secondary
+  color: $default-color
+  font-family: 'Roboto', sans-serif
+  margin: 0
+
+a
+  text-decoration: none
+  color: $default-color
+
+footer
+  background-color: $color-primary
+  color: $color-secondary
+
+  .footer-diagonal
+    @extend .dg-negative
+    @extend .w-fluid
+    background-color: $color-primary
+    font-size: $fnt-medium
+    padding-bottom: $pd-medium
+    padding-left: $pd-small
+    padding-right: $pd-small
+    text-align: right
+
+  .footer-title
+    color: $color-secondary
+    font-weight: bold
+    margin: 0
+
+nav
+  @extend .dg-negative
+  @extend .w-fluid
+  background-color: $color-primary
+  color: $color-secondary
+  font-size: $fnt-extra-large
+  font-weight: bold
+  padding-left: $pd-small
+  padding-right: $pd-small
+  padding-top: $pd-small
+
+blockquote
+  margin-left: 0
+  margin-right: 0
+
+@media (max-width: $breakpoint-mobile)
+  nav
+    font-size: $fnt-large
+    padding-left: $pd-extra-small
+    padding-right: $pd-extra-small

@@ -1,0 +1,52 @@
+.card
+  @extend .dg-positive
+  background-color: $default-color
+  color: $color-secondary
+  padding: $pd-medium
+
+  .card-text
+    @extend .dg-negative
+    margin-top: $m-small
+    margin-bottom: $m-small
+    display: block
+
+  .card-title
+    @extend .dg-negative
+    font-size: $fnt-medium
+    font-weight: bold
+
+.card-clickable
+  @extend .card
+
+  a
+    color: $color-secondary
+
+  &:hover
+    background-color: $color-secondary
+    box-shadow: 5px 5px $color-primary
+    cursor: pointer
+
+    a
+      color: $default-color !important
+
+.card-quote
+  @extend .card
+  width: 35vw
+  margin: auto
+  font-size: 1.25rem
+
+  small
+    display: block
+    text-align: right
+
+@media (max-width: $breakpoint-mobile)
+  .card-quote
+    width: 70vw
+
+@media (min-width: $breakpoint-mobile)
+  .card-clickable
+    height: 90%
+
+@media (min-width: $breakpoint-medium)
+  .card-clickable
+    height: 100%
