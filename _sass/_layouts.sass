@@ -1,0 +1,64 @@
+.container
+  margin-bottom: $m-large
+  margin-left: auto
+  margin-right: auto
+  margin-top: $m-large
+  width: 65vw
+
+.content
+  margin-top: $m-large
+
+  .grid
+    margin-bottom: $m-medium
+
+.grid
+  display: grid
+  grid-template-columns: 50% 50%
+  place-items: center
+  grid-gap: 1em
+
+  &.cards
+    margin-top: $m-large
+    grid-template-columns: 25% 25% 25% 25%
+
+.grid-item
+  place-self: center
+
+.grid-icons
+  margin-top: $m-medium !important
+  display: grid
+  grid-template-columns: 33% 33% 33%
+  place-items: center
+  width: 35vw
+  margin: auto
+
+  svg
+    @extend .clickable
+    width: 3rem
+
+@media (max-width: $breakpoint-medium)
+  .grid
+    &.cards
+      grid-template-columns: 33% 33% 33%
+
+
+@media (max-width: $breakpoint-small)
+  .grid
+    &.cards
+      grid-template-columns: 50% 50%
+
+@media (max-width: $breakpoint-mobile)
+  .container
+    margin-bottom: $m-medium
+    margin-top: $m-medium
+    width: 90vw
+
+  .grid
+    grid-gap: 0.1em
+    grid-template-columns: auto
+
+    &.cards
+      grid-template-columns: auto
+
+  .grid-icons
+    width: 90vw
