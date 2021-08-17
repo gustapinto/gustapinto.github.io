@@ -24,14 +24,27 @@
   </title>
 </head>
 <body class="bg-secondary">
-  {% include header.html %}
+  <nav class="header">
+    <span class="header-title">
+      Gustavo Henrique Pinto
+    </span>
+  </nav>
 
-  <section id="content">
+  <main>
     <div class="container">
       {{ content }}
     </div>
-  </section>
+  </main>
 
-  {% include footer.html %}
+  <footer class="footer">
+    <div class="footer-diagonal">
+      <p class="footer-title">
+        Contate-me
+      </p>
+      <small>
+        ghp2201@gmail.com
+      </small>
+    </div>
+  </footer>
 </body>
 </html>
