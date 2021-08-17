@@ -11,7 +11,7 @@
 - id: blog-ao-card
   title: Zettelkasten
   text: Uma breve coleção de notas bibliográficas sobre os mais diversos temas, livros e estudos, organizadas, refinadas e principalmente, conectadas, seguindo o estilo Zettelkasten
-  link: https://github.com/projeto-ao/blog
+  link: https://github.com/gustapinto/vault_obsidian
 
 - id: jupyter-card
   title: Notebooks Jupyter
