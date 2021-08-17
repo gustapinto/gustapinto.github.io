@@ -1,19 +1,19 @@
 - id: b3-notifier-card
   title: Notificador B3
-  text: Um simples serviço escrito em Python que consome APIs da bolsa de valores de São Paulo (B3) e envia e-mails a cada X minutos informando os valores atuais das ações cadastradas
+  text: Um simples serviço que consome APIs da bolsa de valores de São Paulo e envia e-mails recorrentes, informando os valores atuais das ações cadastradas
   link: https://github.com/gustapinto/b3-notifier
 
 - id: cptec-data-extractor-card
-  title: Extrator de dados CPTEC
-  text: Retornando as minhas raízes no ecosistema Laravel esse projeto é um extrator de dados construído em Lumen, que realiza a análise de mapas de calor disponibilizados pelo CPTEC.
+  title: Extrator de dados climáticos
+  text: Um extrator de dados construído em Lumen, que realiza a análise de mapas históricos de calor disponibilizados pelo CPTEC para obter dados da cidade de Leme-SP
   link: https://github.com/gustapinto/cptec-data-extractor
 
 - id: blog-ao-card
-  title: Blog AO
-  text: O “herdeiro” do meu trabalho de TCC na ETEC, é um blog baseado em arquivos markdown construído em Django e com posts voltados as questões do meio ambiente.
+  title: Zettelkasten
+  text: Uma breve coleção de notas bibliográficas sobre os mais diversos temas, livros e estudos, organizadas, refinadas e principalmente, conectadas, seguindo o estilo Zettelkasten
   link: https://github.com/projeto-ao/blog
 
 - id: jupyter-card
-  title: Jupyter Notebooks
-  text: Uma pequena coletânea de notebooks jupyter com demonstrações e testes de análises de dados, na maioria das vezes sobre assuntos aleatórios
+  title: Notebooks Jupyter
+  text: Uma pequena coletânea de notebooks jupyter com demonstrações e testes de análises de dados, algumas vezes sobre assuntos aleatórios e outras sobre questões realmente relevantes.
   link: https://github.com/gustapinto/jupyter-notebooks
