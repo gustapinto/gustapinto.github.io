@@ -1,9 +1,17 @@
 - title: Cassum Web Development
   date: Dezembro/2019 - Novembro/2021
-  description: Trabalhei como desenvolvedor web full stack na construção de aplicações web tradicionais e SPAs construídas em Laravel e Vue.js. Também tive a oportunidade de atuar com Python no desenvolvimento de um ETL estruturado com Flask.
+  description: Trabalhei como desenvolvedor web full stack na construção de aplicações web e SPAs de apoio a produção construídas em Laravel e Vue.js, tendo também a oportunidade de atuar com Python no desenvolvimento de rotinas ETL estruturadas com Flask.
   link: https://www.cassum.dev/
+  icons:
+    - <i class="fa-brands fa-laravel"></i>
+    - <i class="fa-brands fa-js-square"></i>
+    - <i class="fa-brands fa-vuejs"></i>
+    - <i class="fa-brands fa-python"></i>
 
 - title: Napp Solutions
   date: Dezembro/2021 - Atualmente
-  description: Atuo como técnico de integração de ETL, trabalhando com o desenvolvimento e manutenção de rotinas de ingestão de dados em Python e produzindo software orientado a serviços em Go, promovendo a migração de sistemas legados para arquiteturas de ETL distribuidas e altamente concorrentes.
+  description: Atuo como técnico de integração ETL, trabalhando com o desenvolvimento e manutenção de rotinas de ingestão de dados em Python e produzindo serviços em Go, promovendo a migração de rotinas legado para arquiteturas de ETL distribuidas e altamente concorrentes.
   link: https://www.nappsolutions.com.br/
+  icons:
+    - <i class="fa-brands fa-python"></i>
+    - <i class="fa-brands fa-golang"></i>
