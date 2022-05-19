@@ -1,19 +1,19 @@
-- id: b3-notifier-card
-  title: Notificador B3
-  text: Um simples serviço que consome APIs da bolsa de valores de São Paulo e envia e-mails recorrentes, informando os valores atuais das ações cadastradas
-  link: https://github.com/gustapinto/b3-notifier
+- id: programame-card
+  title: Programa-me
+  text: Site com uma coleção de ideias abertas para projetos, simples ou avançados, pensadas especialmente para quem está iniciando com programação mas não sabe qual novo projeto produzir
+  link: https://programame.dev/
+
+- id: newscrapper-card
+  title: Extrator de notícias
+  text: ETL para chamadas de notícias dos maiores veículos de imprensa digital do Brasil, orquestrado com Dagster e desenvolvido sob a ótica de Arquitetura Limpa
+  link: https://github.com/gustapinto/news_scrapper
 
 - id: cptec-data-extractor-card
   title: Extrator de dados climáticos
-  text: Um extrator de dados construído em Lumen, que realiza a análise de mapas históricos de calor disponibilizados pelo CPTEC para obter dados da cidade de Leme-SP
-  link: https://github.com/gustapinto/cptec-data-extractor
+  text: Uma API Lumen que extrai e disponibiliza dados climáticos históricos para a cidade de Leme-SP, a partir de mapas de calor do CPTEC
+  link: https://cptecextractor.gustapinto.dev/
 
-- id: blog-ao-card
+- id: zettelkasten-card
   title: Zettelkasten
-  text: Uma breve coleção de notas bibliográficas sobre os mais diversos temas, livros e estudos, organizadas, refinadas e principalmente, conectadas, seguindo o estilo Zettelkasten
+  text: Uma breve coleção de notas bibliográficas, organizadas, refinadas e principalmente, conectadas, seguindo o estilo Zettelkasten
   link: https://github.com/gustapinto/vault_obsidian
-
-- id: jupyter-card
-  title: Notebooks Jupyter
-  text: Uma pequena coletânea de notebooks jupyter com demonstrações e testes de análises de dados, algumas vezes sobre assuntos aleatórios e outras sobre questões realmente relevantes.
-  link: https://github.com/gustapinto/jupyter-notebooks
