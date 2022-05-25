@@ -13,5 +13,5 @@
   description: Atuo como técnico de integração ETL, trabalhando com o desenvolvimento e manutenção de rotinas de ingestão de dados em Python e produzindo serviços em Go, promovendo a migração de rotinas legado para arquiteturas de ETL distribuidas e altamente concorrentes.
   link: https://www.nappsolutions.com.br/
   icons:
-    - <i class="fa-brands fa-python"></i>
     - <i class="fa-brands fa-golang"></i>
+    - <i class="fa-brands fa-python"></i>
