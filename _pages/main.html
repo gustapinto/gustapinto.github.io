@@ -51,7 +51,8 @@ permalink: /
       <div>
         {% for job in site.data.jobs %}
           {% include components/topic.html
-            title = job.title
+            company = job.company
+            role = job.role
             subtitle = job.date
             text = job.description
             link = job.link
