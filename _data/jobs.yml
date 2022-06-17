@@ -6,11 +6,12 @@
     - <i class="fa-brands fa-laravel"></i>
     - <i class="fa-brands fa-js-square"></i>
     - <i class="fa-brands fa-vuejs"></i>
+    - <i class="fa-brands fa-docker"></i>
     - <i class="fa-brands fa-python"></i>
 
 - title: Napp Solutions
   date: Dezembro/2021 - Atualmente
-  description: Atuo como técnico de integração ETL, trabalhando com o desenvolvimento e manutenção de rotinas de ingestão de dados em Python e produzindo serviços em Go, promovendo a migração de rotinas legado para arquiteturas de ETL distribuidas e altamente concorrentes.
+  description: Atuo como analista de integração ETL, desenvolvendo rotinas de ingestão de dados em Python e produzindo serviços em Go, promovendo a migração de rotinas legado para arquiteturas de ETL distribuidas e altamente concorrentes.
   link: https://www.nappsolutions.com.br/
   icons:
     - <i class="fa-brands fa-golang"></i>
