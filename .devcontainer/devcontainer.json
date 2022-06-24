@@ -11,6 +11,7 @@
     ],
     "extensions": [
         "bradlc.vscode-tailwindcss",
-        "svelte.svelte-vscode"
+        "svelte.svelte-vscode",
+        "syler.sass-indented"
     ]
 }
