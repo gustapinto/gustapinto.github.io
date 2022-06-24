@@ -1,0 +1,16 @@
+{
+    "name": "Node",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "node",
+    "workspaceFolder": "/githubio",
+    "settings": {},
+    "runServices": [
+        "node"
+    ],
+    "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "svelte.svelte-vscode"
+    ]
+}
