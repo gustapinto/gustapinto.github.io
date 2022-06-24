@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  jekyll:
+    image: jekyll/jekyll:3
+    command: jekyll serve --watch --incremental --force_polling
+    working_dir: /src/jekyll
+    ports:
+      - 80:4000
+    volumes:
+      - ./:/src/jekyll:Z
