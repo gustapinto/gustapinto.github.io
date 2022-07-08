@@ -6,15 +6,15 @@
 </script>
 
 <Card
-  _class={'w-[75vw] md:w-[40vw] mx-auto mt-[3.5em] text-xl pt-8 leading-7'}
+  _class={'w-[75vw] md:w-[38vw] mx-auto text-xl pt-6 leading-6'}
 >
   <blockquote class="mt-3">
     {quote}
   </blockquote>
 
-  <div class="mt-6 w-full text-end">
+  <div class="mt-4 w-full text-end">
     <cite>
-      <small class="text-md">
+      <small class="text-sm">
         {author}
       </small>
     </cite>
