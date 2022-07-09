@@ -2,8 +2,8 @@
   import SocialIcon from "./SocialIcon.svelte";
 </script>
 
-<div class="w-[35vw] mx-auto grid">
-  <div class="w-100 grid grid-cols-3 justify-items-center">
+<div class="w-[95vw] sm:w-[35vw] mx-auto grid">
+  <div class="w-100 grid grid-cols-3 place-items-center">
     <SocialIcon
       fa="fa-brands fa-instagram"
       link="https://www.instagram.com/gustapinto_"
