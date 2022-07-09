@@ -1,7 +1,7 @@
 <script lang="ts">
   import AboutMeRow from "$lib/AboutMeRow.svelte";
   import IconsRow from "$lib/IconsRow.svelte";
-import LinksRow from "$lib/LinksRow.svelte";
+  import LinksRow from "$lib/LinksRow.svelte";
   import QuoteCard from "$lib/QuoteCard.svelte";
 </script>
 
