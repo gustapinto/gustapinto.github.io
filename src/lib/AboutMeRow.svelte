@@ -7,11 +7,11 @@
     <div class="grid place-items-center mb-8 sm:my-0">
       <div>
         <p class="my-0 sm:my-4 text-white">
-          Um jardineiro de software que vive cada amanhã melhor que o ontem, buscando novos conhecimentos e experiências
+          Um <strong class="text-primary">jardineiro de software</strong> que vive cada amanhã melhor que o ontem, buscando novos conhecimentos e experiências
         </p>
 
         <p class="my-0 sm:my-4 text-white">
-          Minhas ferramentas favoritas para o cultivo de softwares e arquiteturas são: <strong>Linux + Docker</strong>, uma combinação que me apaixonou a primeira vista, <strong>Go</strong>, a linguagem que mais uso para estruturar backends e microsserviços , e <strong>Python</strong>, para a extração e transformação de dados
+          Minhas ferramentas favoritas para o cultivo de softwares e arquiteturas são: <strong class="text-primary">Linux + Docker</strong>, uma combinação que me apaixonou a primeira vista, <strong class="text-primary">Go</strong>, a linguagem que mais uso para estruturar backends e microsserviços , e <strong class="text-primary">Python</strong>, para a extração e transformação de dados
         </p>
       </div>
     </div>
