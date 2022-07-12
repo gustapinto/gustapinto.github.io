@@ -1,5 +1,5 @@
 <script lang="ts">
-  import projects from '$lib/datasets/projects.json'
+  import projects from '$lib/assets/datasets/projects.json'
   import ProjectCard from './ProjectCard.svelte';
 </script>
 

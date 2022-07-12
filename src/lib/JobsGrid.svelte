@@ -1,5 +1,5 @@
 <script lang="ts">
-    import jobs from '$lib/datasets/jobs.json'
+    import jobs from '$lib/assets/datasets/jobs.json'
     import JobCard from './JobCard.svelte';
   </script>
 
