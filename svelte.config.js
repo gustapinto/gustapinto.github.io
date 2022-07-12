@@ -14,9 +14,11 @@ const config = {
 			pages: 'docs',
 			assets: 'docs',
 			fallback: null,
-			prerender: true
 		}),
 		trailingSlash: 'always',
+		prerender: {
+			default: true
+		},
 		vite: {
 			ssr:{
 				noExternal: ['chart.js']
