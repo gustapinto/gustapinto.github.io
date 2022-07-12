@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ProjectsGrid from "$lib/ProjectsGrid.svelte";
 </script>
 
 <svelte:head>
@@ -6,4 +7,7 @@
 </svelte:head>
 
 <main>
+  <div class="mt-[7.5em]">
+    <ProjectsGrid />
+  </div>
 </main>

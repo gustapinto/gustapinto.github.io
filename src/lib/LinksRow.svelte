@@ -11,7 +11,7 @@
     />
 
     <LinkCard
-      url={'#'}
+      url={'/jobs'}
       text={'Experiência'}
       icon={'<i class="fa-solid fa-solid fa-laptop-code"></i>'}
     />
