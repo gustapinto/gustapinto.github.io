@@ -11,9 +11,12 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: "docs",
-			assets: "docs"
+			pages: 'docs',
+			assets: 'docs',
+			fallback: null,
+			prerender: true
 		}),
+		trailingSlash: 'always',
 		vite: {
 			ssr:{
 				noExternal: ['chart.js']
