@@ -19,11 +19,11 @@
     <div class="block text-white">
       <Chart
         type={'radar'}
-        labels={['Python', 'Go', 'Linux', 'PHP', 'Docker', 'SQL', 'Javascript']}
+        labels={['Python', 'Go', 'Linux', 'Laravel', 'Docker', 'SQL', 'React']}
         datasets={[
           {
             label: '',
-            data: [90, 75, 60, 60, 50, 60, 40],
+            data: [90, 75, 75, 80, 60, 60, 70],
             fill: true,
             backgroundColor: 'rgba(246, 212, 40, 0.2)',
             borderColor: 'rgb(246, 212, 40)',

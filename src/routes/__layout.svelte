@@ -28,13 +28,12 @@
 
 <slot />
 
-<Footer />
-
 <style global>
   body {
     background-color: #2e2e2e;
     color: #2e2e2e;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    margin-bottom: 5em;
   }
 </style>
