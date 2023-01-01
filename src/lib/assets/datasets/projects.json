@@ -1,0 +1,30 @@
+[
+  {
+    "id": "programame-card",
+    "title": "Programa-me",
+    "text": "Site com uma coleção de ideias abertas para projetos, simples ou avançados, pensadas especialmente para quem está iniciando com programação mas não sabe qual novo projeto produzir",
+    "link": "https://programame.dev/",
+    "icons": []
+  },
+  {
+    "id": "newscrapper-card",
+    "title": "Extrator de notícias",
+    "text": "ETL para chamadas de notícias dos maiores veículos de imprensa digital do Brasil, orquestrado com Dagster e desenvolvido sob a ótica de Arquitetura Limpa",
+    "link": "https://github.com/gustapinto/news_scrapper",
+    "icons": []
+  },
+  {
+    "id": "cptec-data-extractor-card",
+    "title": "Extrator de dados climáticos",
+    "text": "Uma API Lumen que extrai e disponibiliza dados climáticos históricos para a cidade de Leme-SP, a partir de mapas de calor do CPTEC",
+    "link": "https://cptecextractor.gustapinto.dev/",
+    "icons": []
+  },
+  {
+    "id": "zettelkasten-card",
+    "title": "Zettelkasten",
+    "text": "Uma breve coleção de notas bibliográficas, organizadas, refinadas e principalmente, conectadas, seguindo o estilo Zettelkasten",
+    "link": "https://github.com/gustapinto/vault_obsidian",
+    "icons": []
+  }
+]
