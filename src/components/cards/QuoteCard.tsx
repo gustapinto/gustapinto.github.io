@@ -15,7 +15,7 @@ export default function QuoteCard({quote, author}: QuoteCardProps) {
 
         <div className='mt-4 w-full text-end'>
           <cite>
-            <small className='text-sm'>
+            <small className='text-sm not-italic'>
               {author}
             </small>
           </cite>
