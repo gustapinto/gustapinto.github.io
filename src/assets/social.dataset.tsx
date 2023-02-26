@@ -1,9 +1,9 @@
-import {SiInstagram, SiGithub, SiLinkedin} from 'react-icons/si';
+import {SiExercism, SiGithub, SiLinkedin} from 'react-icons/si';
 
 export default [
   {
-    url: 'https://www.instagram.com/gustapinto_',
-    icon: <SiInstagram />,
+    url: 'https://exercism.org/profiles/gustapinto',
+    icon: <SiExercism />,
   },
   {
     url: 'https://github.com/gustapinto',

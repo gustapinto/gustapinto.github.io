@@ -4,6 +4,10 @@ import social from '../assets/social.dataset';
 import Highlight from '../components/text/Highlight';
 import RadarChart from '../components/charts/RadarChart';
 import langs from '../assets/langs.dataset';
+import {jobsDataset} from '../assets/jobs.dataset';
+import {JobHistorySchema, JobSchema} from '../schemas/jobs';
+import {MdCircle} from 'react-icons/md';
+import JobTimelineItem from '../components/timelines/JobTimelineItem';
 
 export default function Home() {
   return (
@@ -35,11 +39,11 @@ export default function Home() {
             <div className='grid place-items-center mb-8 sm:my-0'>
               <div>
                 <p className='my-0 sm:my-4 text-white'>
-                  Um <Highlight>jardineiro de software</Highlight> que vive cada amanhã melhor que o ontem, buscando sempre novos conhecimentos e experiências.
+                  Um <Highlight>jardineiro de software</Highlight> que sempre busca novas experiências, vivendo cada amanhã melhor que o ontem.
                 </p>
 
                 <p className='my-0 sm:my-4 text-white'>
-                  Minhas ferramentas favoritas para o cultivo de softwares e arquiteturas são: <Highlight>Linux + Docker</Highlight>, uma combinação que me apaixonou a primeira vista, <Highlight>Go</Highlight>, a linguagem que mais uso para estruturar backends e microsserviços, <Highlight>Python</Highlight>, para a manipulação de dados.
+                  Minhas ferramentas favoritas para o cultivo de softwares e arquiteturas são <Highlight>Linux + Docker</Highlight>, uma combinação que me apaixonou a primeira vista, <Highlight>Go</Highlight>, para a estruturação de backends e microsserviços, <Highlight>Python</Highlight>, para a manipulação de dados e <Highlight>React</Highlight> para a criação de frontends.
                 </p>
               </div>
             </div>
@@ -54,8 +58,13 @@ export default function Home() {
         </div>
 
         <div className='mt-[7.5em]'>
+          <div className='w-[95vw] md:w-[75vw] 2xl:w-[55vw] mx-auto'>
+            {jobsDataset.map((job: JobSchema, jobIndex: number) => (
+              <JobTimelineItem job={job} jobIndex={jobIndex} />
+            ))}
+          </div>
         </div>
-      </div>
-    </main>
+      </div >
+    </main >
   );
 }

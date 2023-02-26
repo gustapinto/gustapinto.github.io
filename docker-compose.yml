@@ -2,9 +2,11 @@ version: "3.6"
 
 services:
   node:
-    build: .
+    image: node:19-alpine
     working_dir: /githubio
-    command: npm run start
+    command: >
+      sh -c "npm install &&
+      npm start"
     ports:
       - 3000:3000
     volumes:

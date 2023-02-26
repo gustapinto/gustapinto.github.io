@@ -1,5 +1,5 @@
 interface CardProps {
-  styles: string,
+  styles?: string
   children: JSX.Element
 }
 
