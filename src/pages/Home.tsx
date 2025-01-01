@@ -39,11 +39,7 @@ export default function Home() {
             <div className='grid place-items-center mb-8 sm:my-0'>
               <div>
                 <p className='my-0 sm:my-4 text-white'>
-                  Um <Highlight>jardineiro de software</Highlight> que sempre busca novas experiências, vivendo cada amanhã melhor que o ontem.
-                </p>
-
-                <p className='my-0 sm:my-4 text-white'>
-                  Minhas ferramentas favoritas para o cultivo de softwares e arquiteturas são <Highlight>Linux + Docker</Highlight>, uma combinação que me apaixonou a primeira vista, <Highlight>Go</Highlight>, para a estruturação de backends e microsserviços, <Highlight>Python</Highlight>, para a manipulação de dados e <Highlight>React</Highlight> para a criação de frontends.
+                Um desenvolvedor de software apaixonado por desenvolvimento backend, engenharia de dados, sempre pronto para inovar ou revolucionar processos, simplificando bases de código e fluxos de dados para a maior entrega de valor possível
                 </p>
               </div>
             </div>
