@@ -9,10 +9,10 @@ export const jobsDataset: Array<JobSchema> = [
     link: 'https://www.claro.com.br/',
     history: [
       {
-        role: 'Desenvolvedor Backend Pleno',
+        role: 'Desenvolvedor Backend',
         date: 'Julho/2024 - Atualmente',
         description: <>
-          Trabalho como desenvolvedor na estruturação, engenharia e manutenção de microsserviços altamente distribuídos e escaláveis, desenvolvidos utilizando <Highlight>Java</Highlight>, <Highlight>Spring Boot</Highlight>, <Highlight>Apache Kafka</Highlight> para operações assíncronas e banco de dados <Highlight>Oracle</Highlight>. Além do desenvolvimento dos mesmos também atuo na implementação em Cloud, usando para isso <Highlight>AWS</Highlight>, <Highlight>Kubernetes</Highlight> e pipelines de CI/CD Jenkins
+          Trabalho como desenvolvedor na estruturação, engenharia e manutenção de microsserviços altamente distribuídos e escaláveis, desenvolvidos utilizando <Highlight>Java</Highlight>, <Highlight>Spring Boot</Highlight> e banco de dados <Highlight>Oracle</Highlight>, também atuando na implementação do mesmo em Cloud, usando para isso <Highlight>AWS</Highlight>, <Highlight>Kubernetes</Highlight> e pipelines de CI/CD Jenkins
         </>
       },
     ],
@@ -20,6 +20,7 @@ export const jobsDataset: Array<JobSchema> = [
       <SiSpringboot />,
       <SiKubernetes />,
       <SiApachekafka />,
+      <SiGooglecloud />,
       <SiOracle />,
       <SiAmazonaws />,
       <SiJava />,
@@ -33,16 +34,20 @@ export const jobsDataset: Array<JobSchema> = [
         role: 'Desenvolvedor Fullstack Sênior',
         date: 'Novembro/2022 - Julho/2024',
         description: <>
-          Trabalhei desenvolvendo microsserviços e plataformas web utilizando <Highlight>Go</Highlight>, <Highlight>Laravel</Highlight> e <Highlight>React</Highlight>, apoiadas por ferramentas como <Highlight>Camunda BPMN</Highlight> e serviços da <Highlight>Google Cloud Platform</Highlight>.
+          <p>
+            Atuei no desenvolvimento de microsserviços utilizando <Highlight>Go</Highlight>, <Highlight>Java</Highlight> e <Highlight>Python</Highlight>, além de participar da construção e manutenção de pipelines de Big Data com <Highlight>Apache Spark</Highlight>, <Highlight>Delta Lake</Highlight> e <Highlight>Snowflake Data Cloud</Highlight>. Todo o trabalho foi sustentado por ferramentas e plataformas como Google Cloud Platform (GCP), Docker e Linux.
+          </p>
 
-          <p>Também atuei como engenheiro de dados, arquitetando e desenvolvendo pipelines de ingestão e processamaento de dados em Near Real Time, usando para isso ferramentas como <Highlight>Delta Lake</Highlight>, <Highlight>Apache Kafka</Highlight> e <Highlight>Apache Spark</Highlight> em plataformas como <Highlight>GCP</Highlight> e <Highlight>Snowflake Data Cloud</Highlight></p>
+          <p className='mt-2'>
+            Além das atividades de desenvolvimento, também ofereci suporte técnico ao time, liderando <Highlight><i>feature-teams</i></Highlight> multidisciplinares na implementação de funcionalidades tanto em plataformas internas e externas.
+          </p>
         </>,
       },
       {
         role: 'Analista de Integração Pleno',
-        date: 'Dezembro/2021 - Novembro/2022',
+        date: 'Novembro/2021 - Novembro/2022',
         description: <>
-          Atuei Desenvolvendo rotinas de ingestão de dados em <Highlight>Python</Highlight> e promovendo a migração de rotinas legado para arquiteturas distribuidas e altamente concorrentes usando serviços de ETL "Ad hoc" escritos em <Highlight>Go</Highlight> e apoiados pela plataforma de dados <Highlight>Hazelcast</Highlight>.
+          Atuei desenvolvendo rotinas de ingestão de dados em <Highlight>Python</Highlight> e promovendo a migração de rotinas legado para arquiteturas distribuidas e altamente concorrentes usando serviços de ETL "Ad hoc" escritos em <Highlight>Go</Highlight> e apoiados pela plataforma de dados <Highlight>Hazelcast</Highlight>.
         </>,
       },
     ],
